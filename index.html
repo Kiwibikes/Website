@@ -9,6 +9,21 @@
 <title>Kiwi Bikes</title>
 </head>
 <body>
+ <div class="kiwibikemenu" id="bikemenu">
+  <a href="#index.html" class="active"><img src="smiley.gif" alt="KBLogo" height="100" width="100"></a>
+  </a>
+</div>
+<script>
+function myFunction() {
+    var x = document.getElementById("bikemenu");
+    if (x.className === "kiwibikemenu") {
+        x.className += " responsive";
+    } else {
+        x.className = "kiwibikemenu";
+    }
+}
+</script>
+
 </body>
   
 </html>
